@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 from scipy import stats
-
+# New comment added from command line
 
 CITY_DATA = { 'chicago': 'chicago.csv','Chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv','New york city': 'new_york_city.csv',
