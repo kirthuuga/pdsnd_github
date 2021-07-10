@@ -3,40 +3,8 @@ import pandas as pd
 import numpy as np
 from scipy import stats
 # New comment added from command line
+# 2nd comment added
 
-CITY_DATA = { 'chicago': 'chicago.csv','Chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv','New york city': 'new_york_city.csv',
-              'washington': 'washington.csv','Washington': 'washington.csv' }
-
-
-
-MONTH_LIST = ['january',
-              'february',
-              'march',
-             'april',
-             'may',
-             'june',
-             'all']
-
-DAYS_LIST = ['monday',
-              'tuesday',
-              'wednesday',
-             'thursday',
-             'friday',
-             'saturday',
-            'sunday',
-            'all']
-
-def get_filters():
-    """
-    Asks user to specify a city, month, and day to analyze.
-    Returns:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
-    """
-    print('Hello! Let\'s explore some US bikeshare data!')
-    print()
     print('My name is K and this is my first python project')
     print()
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
